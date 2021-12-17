@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  widows: 100%;
+}
+
+body{
+  background-image: url(..images/fan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+}
+h1{
+  text-align: center;
+  margin-top: 35px;
+}
+h2{
+margin-top: 15px;
+font-size: 20px;
+}
+p{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+input[type=text]{
+  width: 600px;
+  height: 35px;
+  font-size: 15px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+form{
+  background-color: rgba(0,0,0,0.7);
+  padding-top: 50px;
+  margin-top: 15px;
+  padding-left: 45px;
+  font-size: 20px;
+  border-radius: 10px;
+
+}
+#option1 select{
+  width: 600px;
+  height: 35px;
+  border-radius: 5px;
+}
+input[type=age]{
+width: 600px;
+height: 35px;
+border-radius: 5px;
+}
+
+input[type=checkbox]{
+margin-bottom: 15px;
+
+
+
+}
+
+#option2 select{
+  width: 600px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+textarea{
+  width: 600px;
+  height: 150px;
+  border-radius: 10px;
+  margin-right: 40px;
+  padding-top: 15px;
+
+}
+
+#submit{
+  width: 600px;
+  height: 50px;
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  color: #000;
+}
+
+input#submit:hover{
+  box-sizing: content-box;
+  padding: 1px;
+}
